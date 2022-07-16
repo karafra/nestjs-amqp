@@ -1,8 +1,8 @@
-import { RedisModule, REDIS_CLIENT } from "./main";
+import { AmqpModule, AMQP_CLIENT } from "./main";
 
 describe("main exports", () => {
   it("is defined", () => {
-    expect(RedisModule).toBeDefined();
-    expect(REDIS_CLIENT).toBeDefined();
+    expect(AmqpModule).toBeDefined();
+    expect(AMQP_CLIENT).toBeDefined();
   });
 });
