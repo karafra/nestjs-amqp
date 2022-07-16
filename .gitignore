@@ -1,0 +1,7 @@
+.idea
+*.swp
+node_modules
+lib
+coverage
+dist
+docs
