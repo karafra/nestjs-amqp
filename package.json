@@ -4,7 +4,6 @@
   "description": "Minimal AMQP client for NestJS",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
-  "type": "module",
   "exports": {
     ".": {
       "import": "./dist/main.js",
