@@ -4,6 +4,7 @@
   "description": "Minimal AMQP client for NestJS",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
+  "type": "module",
   "exports": {
     ".": {
       "import": "./dist/main.js",
@@ -17,6 +18,7 @@
     "patch": "npm run build && npm version patch && npm publish",
     "format": "prettier --write 'src/**/*.ts'",
     "build": "tsc",
+    "prepublish": "npm run build",
     "generate-doc": "typedoc",
     "prepare": "husky install",
     "release": "standard-version"
