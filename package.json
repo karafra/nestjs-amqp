@@ -4,6 +4,12 @@
   "description": "Minimal AMQP client for NestJS",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/main.js",
+      "require": "./dist/main.js"
+    }
+  },
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
