@@ -1,4 +1,4 @@
-# Webeleon npm package starter
+# @karafra/nestjs-amqp
 
 ## Install
 
